@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Projects\" />
+    <Folder Include="Projects\Models\" />
+    <Folder Include="Projects\Schema\" />
+    <Folder Include="Users\" />
+    <Folder Include="Users\Models\" />
+    <Folder Include="Users\Schema\" />
+    <Folder Include="Projects\Payloads\" />
+    <Folder Include="Shared\" />
+    <Folder Include="Explorations\" />
+    <Folder Include="Explorations\Models\" />
+    <Folder Include="Explorations\Payloads\" />
+    <Folder Include="Explorations\Schema\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HotChocolate" Version="11.0.0-preview.103" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="10.4.0-preview.14" />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.4.0-preview.14" />
+    <PackageReference Include="HotChocolate.Types.Filters" Version="10.4.0-preview.14" />
+    <PackageReference Include="HotChocolate.Types.Sorting" Version="10.4.0-preview.14" />
+    <PackageReference Include="Neo4j.Driver" Version="4.0.0" />
+  </ItemGroup>
+</Project>
